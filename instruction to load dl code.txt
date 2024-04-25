@@ -1,0 +1,36 @@
+jo code github pe dl ke code he woh as it is use kro
+
+changes sirf
+from google.colab import files
+uploaded = files.upload()
+
+is line ke jagah sirf
+
+from google.colab import drive
+drive.mount('/content/drive')
+
+
+
+yeh code use kro ab yeh humare google drive se connect hoga, humare drive me jo file he
+unko use krega
+mera account login kro(email id- preranamadhavi77@gmail.com Password-Prena_77) because isme file uploaded he
+
+ek baar drive connect hua na to fir left side me drive ke folders open honge fir usme se jo dataset chahiye 
+uska pathcopy kro( 3 dots pe click krke copy path or woh add krdo)
+
+for example:-
+
+df_train = pd.read_csv("/content/drive/MyDrive/DL datasets/fashion-mnist_train.csv")
+
+# Load the test data
+df_test = pd.read_csv("/content/drive/MyDrive/DL datasets/fashion-mnist_test.csv")
+
+
+and that's it ....you are done 
+
+then copy all the code as usual
+
+
+(dl3rd and 5th) fashion dataset aur plant dataset ke liye code same hi he bs file ka path change krdo
+
+all the best !!!
